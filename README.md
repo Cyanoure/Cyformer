@@ -1,5 +1,5 @@
 # Cyformer
-Object oriented 2d JavaScript game engine
+Object oriented JavaScript 2D (platformer) game engine
 ## Usage
 Example project: [cyformer.github.cyanoure.ga](https://cyformer.github.cyanoure.ga)
 ## Create canvas
