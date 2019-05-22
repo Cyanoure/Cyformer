@@ -2,24 +2,24 @@
 Object oriented 2d JavaScript game engine
 ## Usage
 Example project: [cyformer.github.cyanoure.ga](https://cyformer.github.cyanoure.ga)
-###### Create canvas
+## Create canvas
 Create a canvas as like in the [index.html](https://github.com/Cyanoure/Cyformer/blob/master/index.html) file.
 ```
 <canvas id="gamecanvas"></canvas>
 ```
-###### Add javascript in HTML
+## Add javascript in HTML
 The cyformer.js is in my js folder.
 ```
 <script src="js/cyformer.js"></script>
 ```
-###### Setting up Cyformer
+## Setting up Cyformer
 ```
 var canvas = document.getElementById("gamecanvas");
 var ctx = canvas.getContext("2d");
 
 var game = new cyformer(ctx);
 ```
-###### Rendering
+## Rendering
 ```
 function render(){
   //x,y = 0,0 is at center with this 2 lines
@@ -37,13 +37,13 @@ function render(){
 
 render();
 ```
-###### Create a rectangle object
+## Create a rectangle object
 ```
 var box1 = new game.rectObject();
 game.scene.add(box1);
 ```
 
-###### Rectangle object settings and methods
+## Rectangle object settings and methods
 Coloring
 ```
 objectVariable.color = "#77DDEE";
@@ -61,7 +61,7 @@ objectVariable.borderColor = "#ColorHex"; //if is "" or not set, the border colo
 ```
 
 
-###### In-game object settings and methods
+## In-game object settings and methods
 Positioning
 ```
 objectVariable.position.x = 0;
